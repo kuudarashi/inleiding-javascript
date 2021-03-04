@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://xenodude.files.wordpress.com/2018/09/happy-sugar-life-ep-8-3.png?w=863&h=1&crop=1");
+}
+header{
+    background-color: black;
+    color: white;
+}
+nav{
+
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    border: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
