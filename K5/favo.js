@@ -1,15 +1,15 @@
 pics = document.getElementById("pics");
 createpicholder();
 createKitsune();
+
 function createpicholder() {
-    for (var i = 0; i < 9; i ++){
+    for (var i = 0; i < 9; i ++) {
 
-picholder = document.createElement("div");
-picholder.className = "foxpic";
-picholder.id = "picture-holder-" + i;
-pics.appendChild(picholder);
-
-}
+        picholder = document.createElement("div");
+        picholder.className = "foxpic";
+        picholder.id = "picture-holder-" + i;
+        pics.appendChild(picholder);
+    }
 }
 
 function createKitsune() {
@@ -33,10 +33,10 @@ function makeFavo(id) {
     console.log("amma  favo now <3 no " + id);
     nofavo = document.getElementsByClassName("fav")
 
-    for (var i = 0; i < nofavo.length; i ++) {
+    for (var i = 0; i < nofavo.length; i++) {
         nofavo[i].style.backgroundImage = "none";
     }
 
-        fav = document.getElementById("fav_" + id);
-        fav.style.backgroundImage = "url('../fotos/like.jpg')";
+    fav = document.getElementById("fav_" + id);
+    fav.style.backgroundImage = "url('../fotos/like.jpg')";
 }
