@@ -1,0 +1,25 @@
+div#box {
+    margin:auto;
+    padding: 20px;
+    border: 10px  black solid;
+    width: 450px;
+    height: 300px;
+    background-color: crimson;
+    color: yellow;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: yellowgreen;
+}
+input#invaded {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: royalblue;
+}
+input.txt {
+    margin-left: 20px;
+    width: 75%;
+}
